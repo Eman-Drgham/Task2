@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start header section */
+.header {
+    width: 100vw;
+    height: 350px;
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 24px;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .header-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.header .hearer-portrait {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* end header section */
+
+
+/* start contant section */
+
+.contant {
+    width: 45%;
+    margin: 25px auto;
+    border: 1px solid rgba(201, 196, 196, 0.849);
+    box-shadow: 0px 0px 1px 0.5px gray;
+}
+
+.contant h3 {
+    color: gray;
+}
+
+.tittle {
+    display: flex;
+    gap: 5px;
+}
+
+.tittle img {
+    width: 15px;
+}
+
+.list {
+    margin: 20px 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    width: 160px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #0081f1;
+    color: white;
+    border-radius: 8px;
+}
+
+.card .card-icon {
+    width: 15px;
+}
+
+.contact,
+.follow-me,
+.experience,
+.programming-skills,
+.interests {
+    margin: 20px;
+    border-bottom: 1px solid rgba(201, 196, 196, 0.849);
+    ;
+}
+
+.follow-me-list {
+    list-style: none;
+    margin: 20px 0;
+    display: flex;
+    align-items: self-start;
+    gap: 20px;
+}
+
+.follow-me-list li a img {
+    width: 20px;
+}
+
+
+/* end contant section */
